@@ -24,6 +24,7 @@ export default function(){
             margin:0;
             padding:0;
             text-align : center;
+            font-size : 28px;
         }
 
         p {
@@ -38,7 +39,7 @@ export default function(){
     return (
         <Block>
             <div style={{backgroundColor : '#005baa'}}>
-                <img src="imgs/miracom.png" width="300px"/>
+                <img src="imgs/miracom.png" width="200px"/>
                 <h1>미라콤 아이엔씨</h1>
                 <p>
                     <b>2020.02 ~ 현재</b>
@@ -47,7 +48,7 @@ export default function(){
             </div>
 
             <div style={{backgroundColor : '#fff', color : '#555555'}}>
-            <img src="imgs/osstem.png" width="300px"/>
+            <img src="imgs/osstem.png" width="200px"/>
                 <h1>오스템 임플란트</h1>
                 <p>
                     <b>2020.02 ~ 2020.01</b>
@@ -56,7 +57,7 @@ export default function(){
             </div>
 
             <div>
-                <img src="imgs/medialog.png" width="300px"/>
+                <img src="imgs/medialog.png" width="200px"/>
                 <h1>미디어로그</h1>
                 <p>
                     <b>2020.02 ~ 2020.01</b>

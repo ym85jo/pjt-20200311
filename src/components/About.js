@@ -28,7 +28,7 @@ export default function(){
         <Block>
             <h1>About</h1>
             <p>
-                조영민입니다. 열심히 하겠습니다.
+                Hello. my name is ..
             </p>
         </Block>
     );

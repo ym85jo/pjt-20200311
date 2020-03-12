@@ -16,7 +16,7 @@ export default function(){
         p {
             font-family : 'Anonymous Pro', monospace;
             border-right : 2px solid rgba(255, 255, 255, 0.75);
-            width : 13em;
+            width : 16em;
             font-size : 200%;
             transform : translateY(-50%);
             overflow : hidden;
@@ -34,7 +34,7 @@ export default function(){
             }
 
             to {
-                width : 13em;
+                width : 16em;
             }
         }
 
@@ -52,7 +52,7 @@ export default function(){
     return (
         <Block>
             <p>
-                HELLO NICE TO MEET YOU.
+                Web Developer JO YEONG MIN();
             </p>
         </Block>
     );

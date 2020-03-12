@@ -34,6 +34,7 @@ export default function(){
         .nav-area li a {
             transition : .3s;
             color : white;
+            cursor: pointer;
         }
 
         .nav-area li a:hover {
@@ -62,14 +63,14 @@ export default function(){
                         <li><Link to="/home">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/history">History</Link></li>
-                        <li><Link to="/skils">Skils</Link></li>
+                        <li><Link to="/study">Study</Link></li>
                     </ul>
                 </nav>
                 <div>
-                    <a href="#" className="btn-area">
+                    <a href="mailto:ehli@nate.com" className="btn-area">
                         <i className="fas fa-envelope"></i>
                     </a>
-                    <a href="#" className="btn-area">
+                    <a onClick={() => {window.open('https://www.youtube.com/channel/UCkxIFgjrCKcN8wL-Y_R3hjA')}} className="btn-area">
                         <i className="fab fa-youtube"></i>
                     </a>
                 </div>
