@@ -5,7 +5,7 @@ export default function(){
 
     const Block = styled.div`
         
-        background-color : rgba(25, 25, 25, 0.9);
+        background-color : #252525;
         height : calc(100vh - 56px);
         display : flex;
         flex-direction : column;

@@ -6,7 +6,7 @@ export default function(){
 
     const Block = styled.div`
 
-        background-color : #A9A9A9;
+        background-color : #202020;
 
         a {
             text-decoration : none;
@@ -67,10 +67,10 @@ export default function(){
                 </nav>
                 <div>
                     <a href="#" className="btn-area">
-                        <i class="fas fa-envelope"></i>
+                        <i className="fas fa-envelope"></i>
                     </a>
                     <a href="#" className="btn-area">
-                        <i class="fab fa-youtube"></i>
+                        <i className="fab fa-youtube"></i>
                     </a>
                 </div>
                 
