@@ -1,56 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import Section from './common/Section';
+
 
 export default function(){
 
     const Block = styled.div`
-        
-        display : flex;
-        flex-direction : column;
-        align-items : center;
-        justify-content : center;
-
-        section {
-
-            width : 100%;
-            padding : 10px 30px;
-            
-            display : flex;
-            flex-direction : column;
-            align-items : center;
-            justify-content : center;
-            
-        }
-
-        section.dark{
-            background-color : #222222;
-            color : #ffffff;
-            background-color : #262626;
-        }
-        
-
-        h1 {
-            font-size : 30px;
-        }
-
-        h2{
-            font-size : 20px;
-        }
-
-        p {
-            margin : 40px;
-        }
-
-        div {
-            display : flex;
-        }
 
         a {
             position : relative;
             padding : 10px 10px;
             text-decoration : none;
             color : #fff;
-            font-size : 1em;
+            font-size : 2em;
             text-transform : uppercase;
             letter-spacing : 4px;
             overflow : hidden;
@@ -143,31 +105,20 @@ export default function(){
             height : 100%;
             transform : translateY(-100%);
         }
-        
     `
+    // https://www.youtube.com/watch?v=uNjfslp6Qnc
 
     return (
         <Block>
-            <section className='dark'>
-            
-            <h1>Styled Button</h1>
-            <h2>https://www.youtube.com/watch?v=uNjfslp6Qnc</h2>
-            
-            <p>
-                <div>
-                    <a href="#" onClick={() => {alert('Hello.')}}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Button
-                    </a>
-                </div>
-            </p>
-            
-            
-
-            </section>
+            <Section h1='Styled Button' h2='CSS transform 기능을 사용한 버튼 마우스 오버 효과' mode='dark'>
+                <a href="#" onClick={() => {alert('Hello.')}}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Button
+                </a>
+            </Section>
         </Block>
     );
     
