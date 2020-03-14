@@ -57,7 +57,10 @@ export default function(){
     return (
         <Block>
             <header>
-                <img src="/imgs/code.png" className="logo"/>
+                <Link to="/">
+                    <img src="/imgs/code.png" className="logo"/>
+                </Link>
+                
                 <nav>
                     <ul className="nav-area">
                         <li><Link to="/home">Home</Link></li>
