@@ -4,6 +4,7 @@ import StudyButton from '../components/StudyButton';
 import StudyFlexBox from '../components/StudyFlexBox';
 import Divider from '../components/common/Divider';
 import StudyCalc from '../components/StudyCalc';
+import StudyMap from '../components/StudyMap';
 
 export default function(){
 
@@ -14,6 +15,8 @@ export default function(){
     return (
         <Block>
             
+            <StudyMap/>
+
             <StudyCalc/>
             
             <Divider mode='dark'/>

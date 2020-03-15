@@ -22,6 +22,8 @@ export default function({mode, h1, h2, children}){
             align-items : center;
             justify-content : center;
             
+            background-color : #cccccc;
+
         }
 
         section.dark{
@@ -39,10 +41,11 @@ export default function({mode, h1, h2, children}){
         }
 
         p {
-            margin : 40px;
+            
         }
 
-        div {
+        & > section > div {
+            margin : 40px;
             display : flex;
         }
         
@@ -54,14 +57,12 @@ export default function({mode, h1, h2, children}){
             
             <section className={mode}>
             
-            <h1>{h1}</h1>
-            <h2>{h2}</h2>
-            
-            <p>
+                <h1>{h1}</h1>
+                <h2>{h2}</h2>
+                
                 <div>
                     {children}
                 </div>
-            </p>
 
             </section>
         </Block>
