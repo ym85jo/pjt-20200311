@@ -66,7 +66,7 @@ export default function(){
 
     return (
         <Block>
-            <Section h1='Map' h2='공정 마스크 판매정보를 카카오맵을 이용하여 출력(진행중)' mode=''>
+            <Section h1='Map API' h2='카카오 지도 API 활용 좌표 출력' mode=''>
                 <div id={`map`} style={{width : '1000px', height:'600px'}}></div>
             </Section>
         </Block>

@@ -27,7 +27,6 @@ export default function({mode, h1, h2, children}){
         }
 
         section.dark{
-            background-color : #222222;
             color : #ffffff;
             background-color : #262626;
         }
@@ -45,8 +44,11 @@ export default function({mode, h1, h2, children}){
         }
 
         & > section > div {
-            margin : 40px;
+            margin : 40px 0; 
             display : flex;
+            flex-direction : column;
+            align-items : center;
+            justify-content : center;
         }
         
         
