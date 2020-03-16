@@ -5,6 +5,7 @@ import StudyFlexBox from '../components/StudyFlexBox';
 import Divider from '../components/common/Divider';
 import StudyCalc from '../components/StudyCalc';
 import StudyMap from '../components/StudyMap';
+import StudySlider from '../components/StudySlider';
 
 export default function(){
 
@@ -15,6 +16,8 @@ export default function(){
     return (
         <Block>
             
+            <StudySlider/>
+
             <StudyMap/>
 
             <StudyCalc/>

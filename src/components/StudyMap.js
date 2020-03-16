@@ -16,27 +16,28 @@ export default function(){
             
             const el = document.getElementById('map');
             const map = new kakao.maps.Map(el, {
-                center: new kakao.maps.LatLng(33.450701, 126.570667)
-                , level : 3
+                center: new kakao.maps.LatLng(37.253797, 127.047349)
+                , level : 4
             })
 
             var positions = [
                 {
-                    title: '카카오', 
-                    latlng: new kakao.maps.LatLng(33.450705, 126.570677)
+                    title: '작업장', 
+                    latlng: new kakao.maps.LatLng(37.251385, 127.044258)
                 },
                 {
-                    title: '생태연못', 
-                    latlng: new kakao.maps.LatLng(33.450936, 126.569477)
+                    title: '지하철 탑승', 
+                    latlng: new kakao.maps.LatLng(37.251978, 127.041534)
                 },
+
                 {
-                    title: '텃밭', 
-                    latlng: new kakao.maps.LatLng(33.450879, 126.569940)
+                    title: '버스 탑승', 
+                    latlng: new kakao.maps.LatLng(37.256093, 127.048178)
                 },
-                {
-                    title: '근린공원',
-                    latlng: new kakao.maps.LatLng(33.451393, 126.570738)
-                }
+
+                
+
+
             ];
             
             // 마커 이미지의 이미지 주소입니다
