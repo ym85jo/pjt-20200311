@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 export default function({mode, h1, h2, children}){
@@ -48,9 +48,8 @@ export default function({mode, h1, h2, children}){
             display : flex;
             flex-direction : column;
             align-items : center;
-            justify-content : center;
+            justify-content : center;        
         }
-        
         
     `
 

@@ -6,6 +6,8 @@ import Divider from '../components/common/Divider';
 import StudyCalc from '../components/StudyCalc';
 import StudyMap from '../components/StudyMap';
 import StudySlider from '../components/StudySlider';
+import StudyClock from '../components/StudyClock';
+import StudyTable from '../components/StudyTable';
 
 export default function(){
 
@@ -16,7 +18,13 @@ export default function(){
     return (
         <Block>
             
+            <StudyTable/>
+
+            <StudyClock/>
+
             <StudySlider/>
+
+            <Divider mode=''/>
 
             <StudyMap/>
 

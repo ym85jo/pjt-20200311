@@ -10,40 +10,29 @@ export default function(){
         flex-direction : column;
         align-items : center;
         justify-content : center;
-        
         background-color : #cccccc;
-        
-        h1 {
-            font-size : 30px;
+
+        video {
+            width : 90%;
         }
 
-        h2{
-            font-size : 20px;
-        }
-
-        & .cont{
-            position : relative;
+        &>div>section>div{
+            position:relative;
             width : 100%;
-            height : calc(100vh + 59px);
-        }
-
-        & .cont video{
-            position : absolute;
-            top : 0;
-            left : 0;
-            width : 100%;
-            object-fit : cover;
+            display : flex;
+            flex-direction : column;
+            align-items : center;
+            justify-content : center;
         }
 
         .navigation {
-            position:absolute;
-            bottom : 60px;
-            left : 50%;
-            transform : translateX(-50%);
+            position : absolute;
+            bottom : 30px;
             z-index : 2;
             display : flex;
             justify-content : center;
             align-items : center;
+            padding : 0;
         }
 
         .navigation li{
@@ -56,7 +45,7 @@ export default function(){
         }
 
         .navigation li:hover{
-            opacity : 0.7;
+            opacity : 1;
         }
 
         .navigation li img{
@@ -89,9 +78,7 @@ export default function(){
 
     return (
         <Block>
-            <h1>Video Slider</h1>
-            <h2>전체 화면 동영상 슬라이더</h2>
-            <div className="cont">
+            <Section h1="Video Slider" h2="CSS, Javascript를 사용한 동영상 슬라이더">
                 <video id="slider" autoPlay loop>
                     <source src={src} type="video/mp4"/>
                 </video>
@@ -101,7 +88,8 @@ export default function(){
                     <li onClick={() => onClick('3')}><img src="imgs/3.jpg"/></li>
                     <li onClick={() => onClick('4')}><img src="imgs/4.jpg"/></li>
                 </ul>
-            </div>
+            </Section>
+                
             
         </Block>
     );
