@@ -83,10 +83,10 @@ export default function(){
                     <source src={src} type="video/mp4"/>
                 </video>
                 <ul className="navigation">
-                    <li onClick={() => onClick('1')}><img src="imgs/1.jpg"/></li>
-                    <li onClick={() => onClick('2')}><img src="imgs/2.jpg"/></li>
-                    <li onClick={() => onClick('3')}><img src="imgs/3.jpg"/></li>
-                    <li onClick={() => onClick('4')}><img src="imgs/4.jpg"/></li>
+                    <li onClick={() => onClick('1')}><img src="imgs/1.jpg" alt="1"/></li>
+                    <li onClick={() => onClick('2')}><img src="imgs/2.jpg" alt="2"/></li>
+                    <li onClick={() => onClick('3')}><img src="imgs/3.jpg" alt="3"/></li>
+                    <li onClick={() => onClick('4')}><img src="imgs/4.jpg" alt="4"/></li>
                 </ul>
             </Section>
                 
