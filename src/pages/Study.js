@@ -8,12 +8,13 @@ import StudyMap from '../components/StudyMap';
 import StudySlider from '../components/StudySlider';
 import StudyClock from '../components/StudyClock';
 import StudyTable from '../components/StudyTable';
+import StudyAos from '../components/StudyAos';
 
 export default function(){
 
     const Block = styled.div`
         
-    `
+    `;
 
     return (
         <Block>
@@ -21,6 +22,10 @@ export default function(){
             <StudyTable/>
 
             <StudyClock/>
+
+            <StudyAos/>
+
+            <Divider mode=''/>
 
             <StudySlider/>
 

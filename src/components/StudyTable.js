@@ -12,7 +12,7 @@ export default function(){
     return (
         <Block>
             <Section h1='React Table' h2='react-table' mode=''>
-                Table
+                Table ing..
             </Section>
         </Block>
     );

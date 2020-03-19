@@ -6,6 +6,7 @@ import About from './components/About';
 import Home from './components/Home';
 import History from './components/History';
 import Study from './pages/Study';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,10 +17,12 @@ function App() {
           <Route exact path="/"><Home/></Route>
           <Route path="/home"><Home/></Route>
           <Route path="/about"><About/></Route>
-          <Route path="/history"><History/></Route>
-          <Route path="/study"><Study/></Route>
+          <Route path="/history"><History/><Footer/></Route>
+          <Route path="/study"><Study/><Footer/></Route>
         </Switch>
+        
       </Router>
+        
     </>
   );
 }

@@ -79,7 +79,7 @@ export default function(){
     return (
         <Block>
             <Section h1="Video Slider" h2="CSS, Javascript를 사용한 동영상 슬라이더">
-                <video id="slider" autoPlay loop>
+                <video id="slider" autoPlay loop muted>
                     <source src={src} type="video/mp4"/>
                 </video>
                 <ul className="navigation">
