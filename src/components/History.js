@@ -32,6 +32,7 @@ export default function(){
             margin : auto;
             width : 500px;
             font-size : 18px;
+            padding-bottom : 10px;
         }
 
     `
@@ -42,8 +43,8 @@ export default function(){
                 <img src="imgs/miracom.png" width="200px"/>
                 <h1>미라콤 아이엔씨</h1>
                 <p>
-                    <b>2020.02 ~ 현재</b>
-                    <br/>삼성전자 PLMhme 의료기기 인허가 관리 시스템 개발 및 운영
+                    <b>2018.01 ~ 현재</b>
+                    <br/>삼성전자 PLMhme 의료기기 인허가 관리 시스템
                 </p>
             </div>
 
@@ -51,8 +52,8 @@ export default function(){
             <img src="imgs/osstem.png" width="200px"/>
                 <h1>오스템 임플란트</h1>
                 <p>
-                    <b>2020.02 ~ 2020.01</b>
-                    <br/>삼성전자 PLMhme 의료 인허가 관리 시스템 개발 및 운영
+                    <b>2017.01 ~ 2017.07</b>
+                    <br/>오스템 임플란트 업무 관리 시스템
                 </p>
             </div>
 
@@ -60,19 +61,22 @@ export default function(){
                 <img src="imgs/medialog.png" width="200px"/>
                 <h1>미디어로그</h1>
                 <p>
-                    <b>2020.02 ~ 2020.01</b>
-                    <br/>삼성전자 PLMhme 의료기기 인허가 관리 시스템 개
-                    <br/>삼성전자 PLMhme 의료기기 인허가 
+                    <b>2015.06 ~ 2016.10</b>
+                    <br/>LGU+ 전자결제 청약/관리자 시스템
+                    <br/>LGU+ 전자결제 고객 홈페이지
+                    <br/>LGU+ 전자결제 업무지원 시스템
                 </p>
             </div>
 
             <div style={{backgroundColor:'#F7A119'}}>
                 <h1>커머스아이</h1>
                 <p>
-                    <b>2020.02 ~ 2020.01</b>
-                    <br/>삼성전자 PLMhme 의료기기 인허가 관리 시스템 개발 및 운영 관리 시스템 개발 및 
-                    <br/>삼성전자 PLMhme 의료기기 인허가 관
-                    <br/>삼성전자 PLMhme 의료기기 인허가 관리 시스템 개발 및 운영
+                    <b>2011.04 ~ 2015.06</b>
+                    <br/>삼성전자 PLM 2차 고도화
+                    <br/>삼성전자 PLMc 구축
+                    <br/>삼성전자 무선사 구매 시스템 고도화
+                    <br/>삼성전자 무선사 기술소싱 프로세스 개선
+                    <br/>삼성전자 무선사 요구사항관리 시스템 개발
                 </p>
             </div>
             
