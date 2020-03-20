@@ -13,6 +13,8 @@ export default function(){
         <Block>
             <Section h1='Styled Clock' h2='CSS, Javascript 이용한 시계' mode='dark'>
                 시계 ing..
+                코드 센드박스 테스트 
+                할만 할듯
             </Section>
         </Block>
     );
