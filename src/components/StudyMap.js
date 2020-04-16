@@ -75,13 +75,8 @@ export default function () {
     return (
         <Block>
             <Section h1="Map API" h2="광명시 지역화폐 사용처" mode="">
-                
-                <div id={`roadview`} style={{ width: "1000px", height: "600px" }} />
-                
-                <br/>
-        
                 <div id={`map`} style={{ width: "1000px", height: "600px" }} />
-                
+                <div id={`roadview`} style={{ width: "1000px", height: "600px" }} />
             </Section>
         </Block>
     );
