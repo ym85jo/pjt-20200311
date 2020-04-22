@@ -8,14 +8,14 @@ import { getDefaultWatermarks } from "istanbul-lib-report";
 const { kakao } = window;
 
 export default function () {
+    
     const Block = styled.div`
-  
-  `;
+
+    `;
 
     const gatData = async () => {
 
         const response = await Axios.get('https://openapi.gg.go.kr/RegionMnyFacltStus?Type=json&KEY=5e0ea99f87484b4abdd0740cb3a3097d&SIGUN_NM=광명시')
-        console.log(response.data)
         const rows = response.data.RegionMnyFacltStus[1].row
 
         if (kakao) {
