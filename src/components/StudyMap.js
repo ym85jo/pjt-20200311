@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
 import Section from "./common/Section";
 import Axios from 'axios';
+import { async } from "q";
+import { getDefaultWatermarks } from "istanbul-lib-report";
 
 const { kakao } = window;
 
@@ -10,14 +12,14 @@ export default function () {
   
   `;
 
-    
-    useEffect( async () => {
+    const gatData = async () => {
 
         const response = await Axios.get('https://openapi.gg.go.kr/RegionMnyFacltStus?Type=json&KEY=5e0ea99f87484b4abdd0740cb3a3097d&SIGUN_NM=광명시')
         console.log(response.data)
         const rows = response.data.RegionMnyFacltStus[1].row
 
         if (kakao) {
+
             kakao.maps.load(() => {
                 const el = document.getElementById("map");
                 const map = new kakao.maps.Map(el, {
@@ -26,6 +28,7 @@ export default function () {
                 });
 
                 var positions = [];
+                
                 rows.map(row => {
                     positions.push({
                         title : row.CMPNM_NM
@@ -64,9 +67,15 @@ export default function () {
                     roadview.setPanoId(panoId, position1); //panoId와 중심좌표를 통해 로드뷰 실행
                 });
                 
-                
             });
         }
+
+    }
+    
+    useEffect( () => {
+
+        gatData();
+
     }, []);
 
     return (
