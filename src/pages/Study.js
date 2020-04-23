@@ -9,6 +9,7 @@ import StudySlider from '../components/StudySlider';
 import StudyTable from '../components/StudyTable';
 import StudyAos from '../components/StudyAos';
 import StudyFe1 from '../components/StudyFe1';
+import StudyFe2 from '../components/StudyFe2';
 
 export default function(){
 
@@ -19,6 +20,10 @@ export default function(){
     return (
         <Block>
             
+            <StudyFe2/>
+
+            <Divider mode=''/>
+
             <StudyFe1/>
 
             <Divider mode=''/>

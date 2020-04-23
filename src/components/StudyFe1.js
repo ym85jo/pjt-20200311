@@ -33,11 +33,11 @@ export default function(){
             <Section h1='1. Single price grid component' h2='https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc' mode=''>
                 <div className="one">
                     <div style={{margin:'50px'}}>
-                        <h1 style={{color : '#4ba69a'}}>salfkjsaf</h1>
-                        <h2>salfkjsaf</h2>
+                        <h1 style={{color : '#4ba69a'}}>여기는 제목 영역입니다.</h1>
+                        <h2>CSS 기초</h2>
                         <p>
-                            dsdfsdfsdfsdsdfsdfsdf
-                            <br/>sadfffffffffffff
+                            영역 분할 연습
+                            <br/>CSS 기초 블라블라 내용내용
                         </p>
                     </div>
                     
@@ -46,15 +46,15 @@ export default function(){
                 <div className="divide">
                     <div style={{background : '#46bbb9', width : '50%'}}>
                         <div style={{margin : '50px', color : 'white'}}>
-                            <h1>sdfsdfsdf</h1>
-                            <h2>sdfsdfsdf</h2>
+                            <h1>분할된 1번째 영역</h1>
+                            <h3>내용 블라블라블라</h3>
                             <div className="aBtn" onClick={()=>{alert('Hello')}}>Sign UP</div>
                         </div>
                     </div>
                     <div style={{background : '#bedf36', width : '50%'}}>
                         <div style={{margin : '50px'}}>
-                            <h1>sdfsdfsdf</h1>
-                            <p>sdfsdfsdf</p>
+                            <h1>분할된 2번째 영역</h1>
+                            <h3>내용 블라블라블라</h3>
                         </div>
                     </div>
                 </div>
