@@ -10,6 +10,7 @@ import StudyTable from '../components/StudyTable';
 import StudyAos from '../components/StudyAos';
 import StudyFe1 from '../components/StudyFe1';
 import StudyFe2 from '../components/StudyFe2';
+import StudyFe3 from '../components/StudyFe3';
 
 export default function(){
 
@@ -20,6 +21,10 @@ export default function(){
     return (
         <Block>
             
+            <StudyFe3/>
+
+            <Divider mode=''/>
+
             <StudyFe2/>
 
             <Divider mode=''/>
