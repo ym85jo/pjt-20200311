@@ -82,7 +82,7 @@ export default function(){
 
     return (
         <Block>
-            <Section h1='2. Four card feature section' h2='CSS Flex' mode=''>
+            <Section h1='6. Pricing component with toggle' h2='CSS hover' mode=''>
                 <div>
                     <div style={{margin:'30px'}}>
                         <h1 style={{color : '#4ba69a'}}>Our Pricing</h1>
@@ -96,16 +96,15 @@ export default function(){
 
                 <div className="cardDivs">
                     <div className="cardDiv">
-                        <Card color="#120136"/>
+                        <Card/>
                     </div>
                     <div className="cardDiv">
-                        <Card color="#40bad5"/>
+                        <Card/>
                     </div>
                     <div className="cardDiv">
-                        <Card color="#fcbf1e"/>
+                        <Card/>
                     </div>
                 </div>
-
                 
             </Section>
         </Block>
