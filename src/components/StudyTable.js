@@ -7,7 +7,7 @@ export default function(){
 
     const Block = styled.div`
         
-    `
+    `;
 
     return (
         <Block>

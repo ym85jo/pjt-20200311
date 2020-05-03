@@ -33,7 +33,6 @@ function Card({color}){
 
     `;
 
-
     return (
         <Block className="card">
             <h2>Basic</h2>
@@ -78,7 +77,7 @@ export default function(){
             box-shadow : 3px 3px 4px #999;
         }
         
-    `
+    `;
 
     return (
         <Block>

@@ -26,7 +26,7 @@ export default function(){
             padding : 10px;
             cursor: pointer;
         }
-    `
+    `;
 
     return (
         <Block>

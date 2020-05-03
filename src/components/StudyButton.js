@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Section from './common/Section';
 
-
 export default function(){
 
     const Block = styled.div`
