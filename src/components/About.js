@@ -22,7 +22,7 @@ export default function(){
             padding : 0 30px;
         }
 
-    `
+    `;
 
     return (
         <Block>
@@ -32,5 +32,4 @@ export default function(){
             </p>
         </Block>
     );
-    
 }

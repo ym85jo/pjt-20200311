@@ -79,15 +79,9 @@ export default function(){
         
     }
 
-    const h2 = (
-        <>
-            React useState 이용한 계산기
-        </>
-    );
-
     return (
         <Block>
-            <Section h1='Styled Calculator' h2={h2} mode='dark'>
+            <Section h1='Styled Calculator' h2='React useState 이용한 계산기' mode='dark'>
                 <form className="calculator" name="calc">
                     <input className="value" type="text" name="text" value={value} readOnly/>
                     <span className="num clear" onClick={onClick}>c</span>

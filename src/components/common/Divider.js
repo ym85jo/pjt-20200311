@@ -25,7 +25,5 @@ export default function({mode}){
         <Block>
             <hr className={mode}/>
         </Block>
-            
     );
-    
 }

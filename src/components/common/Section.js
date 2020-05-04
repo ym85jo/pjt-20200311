@@ -39,10 +39,6 @@ export default function({mode, h1, h2, children}){
             font-size : 20px;
         }
 
-        p {
-            
-        }
-
         & > section > div {
             margin : 40px 0; 
             display : flex;
@@ -55,18 +51,13 @@ export default function({mode, h1, h2, children}){
 
     return (
         <Block>
-            
             <section className={mode}>
-            
                 <h1>{h1}</h1>
                 <h2>{h2}</h2>
-                
                 <div>
                     {children}
                 </div>
-
             </section>
         </Block>
     );
-    
 }
