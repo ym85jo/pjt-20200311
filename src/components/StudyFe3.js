@@ -90,7 +90,6 @@ export default function(){
                             CSS :hover 이용하여 마우스 오버했을때 CSS 변경
                         </p>
                     </div>
-                    
                 </div>
 
                 <div className="cardDivs">
