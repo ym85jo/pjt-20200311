@@ -4,7 +4,6 @@ import Section from './common/Section';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-
 export default function(){
 
     const Block = styled.div`

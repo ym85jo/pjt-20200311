@@ -54,7 +54,7 @@ export default function(){
             background-color : #03b1ff;
         }
 
-    `
+    `;
 
     const onClick = (e) => {
         console.log(e.target.innerHTML);
@@ -106,7 +106,6 @@ export default function(){
                     <span className="num" onClick={onClick}>00</span>
                     <span className="num" onClick={onClick}>.</span>
                     <span className="num equal" onClick={onClick}>=</span>
-
                 </form>
 
             </Section>

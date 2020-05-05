@@ -89,9 +89,6 @@ export default function(){
                     <li onClick={() => onClick('4')}><img src="imgs/4.jpg" alt="4"/></li>
                 </ul>
             </Section>
-                
-            
         </Block>
     );
-    
 }

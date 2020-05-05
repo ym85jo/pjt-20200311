@@ -2,8 +2,6 @@ import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
 import Section from "./common/Section";
 import Axios from 'axios';
-import { async } from "q";
-import { getDefaultWatermarks } from "istanbul-lib-report";
 
 const { kakao } = window;
 
@@ -69,13 +67,10 @@ export default function () {
                 
             });
         }
-
     }
     
     useEffect( () => {
-
         gatData();
-
     }, []);
 
     return (

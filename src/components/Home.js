@@ -56,5 +56,4 @@ export default function(){
             </p>
         </Block>
     );
-    
 }
