@@ -35,7 +35,7 @@ export default function(){
             padding-bottom : 10px;
         }
 
-    `
+    `;
 
     return (
         <Block>
